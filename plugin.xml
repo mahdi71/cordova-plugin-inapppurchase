@@ -41,7 +41,7 @@
     </js-module>
 
     <config-file target="AndroidManifest.xml" parent="/manifest">
-      <uses-permission android:name="com.android.vending.BILLING" />
+      <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
     </config-file>
 
     <config-file target="res/xml/config.xml" parent="/*">
